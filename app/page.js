@@ -73,9 +73,9 @@ export default function Home() {
             All in one place.
           </p>
           <div className="mt-10 flex items-center gap-x-6">
-            <Button>
-              <a href="/login">Get started</a>
-            </Button>
+            <a href="/login">
+              <Button>Get started</Button>
+            </a>
             <Button variant="ghost">
               <a>
                 Learn more <span aria-hidden="true">→</span>
